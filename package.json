@@ -23,8 +23,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@tsparticles/slim": "^3.1.0",
-		"@tsparticles/svelte": "^3.0.0",
 		"add-to-calendar-button": "^2.4.3"
 	}
 }
