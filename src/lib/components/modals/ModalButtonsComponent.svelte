@@ -9,11 +9,11 @@
 	}
 
 	function onGoogleMapsButtonClicked(event) {
-		window.open('https://maps.app.goo.gl/1pjV4XiwuPcQ5VKa6');
+		window.open('https://maps.app.goo.gl/WK9ezULmUXJ4d82C6');
 	}
 	
 	function onWazeButtonClicked(event) {
-		window.open('https://ul.waze.com/ul?preview_venue_id=66781211.667812108.22196514&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location');
+		window.open('https://ul.waze.com/ul?place=ChIJ3_v_VaZt2jERKWJUeRGI3A8&ll=1.51742380%2C103.76075570&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location');
 	}
 
 	// Base Classes

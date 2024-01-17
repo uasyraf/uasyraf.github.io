@@ -2,11 +2,49 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<title>Majlis Bertandang, Aiman & Nuryn: 11 Feb 2024</title>
+		<meta property="og:image" content="%sveltekit.assets%/preview-image.png" />
 		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover" data-theme="vintage">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+<script>
+const defaults = {
+	spread: 360,
+	ticks: 100,
+	gravity: 0,
+	decay: 0.94,
+	startVelocity: 30,
+	shapes: ["heart"],
+	colors: ["FFC0CB", "FF69B4", "FF1493", "C71585"],
+};
+
+function shoot() {
+	confetti({
+		...defaults,
+		particleCount: 50,
+		scalar: 2,
+	});
+
+	confetti({
+		...defaults,
+		particleCount: 25,
+		scalar: 3,
+	});
+
+	confetti({
+		...defaults,
+		particleCount: 15,
+		scalar: 4,
+	});
+};
+
+setTimeout(shoot, 0);
+setTimeout(shoot, 100);
+setTimeout(shoot, 200);
+</script>
