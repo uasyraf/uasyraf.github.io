@@ -1,9 +1,8 @@
 <script>
-  import { onMount } from 'svelte';
   import { getModalStore } from '@skeletonlabs/skeleton';
   import { atcb_action } from 'add-to-calendar-button';
   import ModalButtonsComponent from '$lib/components/modals/ModalButtonsComponent.svelte';
-  import * as jq from 'jquery';
+  import jQuery from 'jquery';
 
   const modalStore = getModalStore();
 
@@ -51,7 +50,7 @@
         setTimeout(shoot, 100);
         setTimeout(shoot, 200);
 
-        jq('.wedding-card').show();
+        jQuery('.wedding-card').show();
       } else {
         location.reload()
       }
