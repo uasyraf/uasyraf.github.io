@@ -1,22 +1,22 @@
-<svg class="wedding-card shadow-xl" viewBox="0 0 759 1200" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="759" height="1200" viewBox="0 0 759 1200" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="majlis-bertandang">
 <g id="backdrop">
-<rect width="901" height="1379" transform="translate(-88 -122)" fill="white" fill-opacity="0.41"/>
-<rect width="901" height="1379" transform="translate(-88 -122)" fill="#DEA5A4" fill-opacity="0.2"/>
+<rect width="785" height="1217" transform="translate(-18 -9)" fill="white" fill-opacity="0.41"/>
+<rect width="785" height="1217" transform="translate(-18 -9)" fill="#DEA5A4" fill-opacity="0.2"/>
 </g>
 <g id="flowers">
-<rect id="Layer 19" width="196.18" height="202.284" transform="matrix(0.711198 0.702992 -0.658157 0.752881 685.477 773.227)" fill="url(#pattern0)"/>
+<rect id="Layer 19" width="196.18" height="202.284" transform="matrix(0.711198 0.702992 -0.658157 0.752881 685.477 773.23)" fill="url(#pattern0)"/>
 <rect id="Layer 10" width="217.469" height="232.218" transform="matrix(-1 4.64807e-08 4.11071e-08 1 204.38 1033.17)" fill="url(#pattern1)"/>
-<rect id="Layer 15" x="549.264" y="265.395" width="214.727" height="229.303" fill="url(#pattern2)"/>
-<rect id="Layer 20" width="212.9" height="171.006" transform="matrix(1 -1.26804e-08 -1.12144e-08 -1 553.369 774.621)" fill="url(#pattern3)"/>
-<rect id="Layer 18" width="217.368" height="173.291" transform="matrix(-0.961724 0.274019 -0.244347 -0.969688 177.758 434.437)" fill="url(#pattern4)"/>
-<rect id="Layer 13" width="114.811" height="161.439" transform="matrix(0.852212 -0.523197 -0.477156 -0.878819 23.9221 992.233)" fill="url(#pattern5)"/>
-<rect id="Layer 21" width="255.127" height="227.553" transform="matrix(-0.985862 -0.16756 -0.148644 0.988891 793.561 1031.75)" fill="url(#pattern6)"/>
-<rect id="Layer 16" width="264.376" height="215.713" transform="matrix(-0.477156 0.878819 0.852212 0.523197 352.967 -122.003)" fill="url(#pattern7)"/>
-<rect id="Layer 11" width="170.887" height="100.157" transform="matrix(-0.985862 -0.16756 -0.148644 0.988891 771.618 79.2542)" fill="url(#pattern8)"/>
-<rect id="Layer 17" width="179.09" height="100.495" transform="matrix(0.852212 -0.523197 0.477156 0.878819 -31.5596 672.224)" fill="url(#pattern9)"/>
+<rect id="Layer 15" x="549.264" y="265.398" width="214.727" height="229.303" fill="url(#pattern2)"/>
+<rect id="Layer 20" width="212.9" height="171.006" transform="matrix(1 -1.26804e-08 -1.12144e-08 -1 553.369 774.623)" fill="url(#pattern3)"/>
+<rect id="Layer 18" width="217.368" height="173.291" transform="matrix(-0.961724 0.274019 -0.244347 -0.969688 177.758 434.44)" fill="url(#pattern4)"/>
+<rect id="Layer 13" width="114.811" height="161.439" transform="matrix(0.852212 -0.523197 -0.477156 -0.878819 23.9221 992.236)" fill="url(#pattern5)"/>
+<rect id="Layer 21" width="255.127" height="227.553" transform="matrix(-0.985862 -0.16756 -0.148644 0.988891 793.561 1031.76)" fill="url(#pattern6)"/>
+<rect id="Layer 16" width="264.376" height="215.713" transform="matrix(-0.477156 0.878819 0.852212 0.523197 352.967 -122)" fill="url(#pattern7)"/>
+<rect id="Layer 11" width="170.887" height="100.157" transform="matrix(-0.985862 -0.16756 -0.148644 0.988891 771.618 79.257)" fill="url(#pattern8)"/>
+<rect id="Layer 17" width="179.09" height="100.495" transform="matrix(0.852212 -0.523197 0.477156 0.878819 -31.5596 672.227)" fill="url(#pattern9)"/>
 <rect id="Layer 9" width="218.908" height="163.533" transform="matrix(0.611869 0.790959 0.752688 -0.658378 239.355 1145.85)" fill="url(#pattern10)"/>
-<rect id="Layer 14" width="128.637" height="216.695" transform="matrix(0.685072 0.728475 -0.685073 0.728475 60.4516 -48.7734)" fill="url(#pattern11)"/>
+<rect id="Layer 14" width="128.637" height="216.695" transform="matrix(0.685072 0.728475 -0.685073 0.728475 60.4516 -48.7706)" fill="url(#pattern11)"/>
 </g>
 <g id="content">
 <g id="event-details">
@@ -45,7 +45,7 @@
 </g>
 </g>
 <g id="buttons">
-<g id="calendar-button" on:click={handleCalendarButtonClicked} aria-hidden="true">
+<g id="calendar-button">
 <g id="Group 1">
 <g id="Ellipse 1" filter="url(#filter6_d_12_40)">
 <circle cx="328" cy="1027.32" r="32" fill="#DEA5A4"/>
@@ -70,7 +70,7 @@
 </g>
 </g>
 </g>
-<g id="location-button" on:click={handleLocationButtonClicked} aria-hidden="true">
+<g id="location-button">
 <g id="Group 1_2">
 <g id="Ellipse 1_2" filter="url(#filter7_d_12_40)">
 <circle cx="427" cy="1027.32" r="32" fill="#DEA5A4"/>
