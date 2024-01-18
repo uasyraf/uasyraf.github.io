@@ -9,9 +9,9 @@
   const modal = {
     type: 'confirm',
     title: 'Assalamualaikum dan Selamat Sejahtera',
-    body: "Dengan seikhlas hati, kami menjemput saudara/saudari ke Majlis Bertandang Aiman & Nuryn. Buka kad jemputan?",
-    buttonTextCancel: 'No',
-    buttonTextConfirm: 'Yes',
+    body: "Dengan seikhlas hati kami menjemput Tuan/Puan/Suami/Isteri ke Majlis Bertandang Aiman & Nuryn. Buka kad jemputan?",
+    buttonTextCancel: 'Kembali',
+    buttonTextConfirm: 'Ya',
     response: (r) => {
       if (r) {
         playAudio();
