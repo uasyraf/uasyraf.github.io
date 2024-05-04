@@ -1,5 +1,5 @@
 import { redirect } from '@sveltejs/kit';
 
 export function load() {
-	throw redirect(307, '/majlis-bertandang-aiman-dan-nuryn');
+	throw redirect(307, '/majlis-pernikahan-ummar-dan-puteri');
 }
