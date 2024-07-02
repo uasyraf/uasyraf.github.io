@@ -9,11 +9,11 @@
 	}
 
 	function onGoogleMapsButtonClicked(event) {
-		window.open('https://maps.app.goo.gl/QdG61GygaJePcnQBA');
+		window.open('https://maps.app.goo.gl/NHcMrbFoCqkujfP57');
 	}
 	
 	function onWazeButtonClicked(event) {
-		window.open('https://www.waze.com/ul?ll=1.860165777701765%2C103.10219112504424&navigate=yes&zoom=17');
+		window.open('https://www.waze.com/ul?ll=1.8566620173611275%2C103.09936951367277&navigate=yes&zoom=17');
 	}
 
 	// Base Classes
