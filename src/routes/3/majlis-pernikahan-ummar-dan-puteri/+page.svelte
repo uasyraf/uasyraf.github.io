@@ -6,9 +6,7 @@
   import greetings from "$lib/images/greetings.jpg";
   import majlisBertandang from "$lib/images/majlis-bertandang.jpg";
   import locationButton from "$lib/images/location-button.png";
-  import locationButtonSmall from "$lib/images/location-button-sm.png";
   import calendarButton from "$lib/images/calendar-button.png";
-  import calendarButtonSmall from "$lib/images/calendar-button-sm.png";
 
   const modalStore = getModalStore();
 
@@ -173,14 +171,14 @@
         class="btn rounded-full"
         on:click={handleCalendarButtonClicked}
       >
-        <img src={locationButton} alt="View location" />
+        <img src={calendarButton} alt="View location" />
       </button>
       <button
         id="location-button"
         class="btn rounded-full"
         on:click={handleLocationButtonClicked}
       >
-        <img src={calendarButton} alt="Save to calendar" />
+        <img src={locationButton} alt="Save to calendar" />
       </button>
     </div>
   </div>
@@ -208,18 +206,10 @@
       opacity: 0;
     }
   }
-  #calendar-button:active,
-  #location-button:active {
-    transform: translateY(4px);
-  }
   #calendar-button {
-    height: fit-content;
-    width: fit-content;
     image-rendering: crisp-edges;
   }
   #location-button {
-    height: fit-content;
-    width: fit-content;
     image-rendering: crisp-edges;
   }
   #majlis-bertandang-img {
@@ -235,16 +225,25 @@
   }
   .buttons {
     position: absolute;
-    top: 60%; /* Adjust this value to move the buttons higher or lower */
+    top: 55%; /* Adjust this value to move the buttons higher or lower */
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
-    gap: 5px; /* Adjust the gap between the buttons */
+    gap: 10px; /* Adjust the gap between the buttons */
   }
   .btn {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 90px; /* Set a fixed width for the buttons */
+    height: 90px; /* Set a fixed height for the buttons */
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+  }
+
+  .btn:active {
+    transform: scale(
+      0.95
+    ); /* Optional: Add a slight scale down effect on click */
   }
   .wedding-card {
     display: block;
