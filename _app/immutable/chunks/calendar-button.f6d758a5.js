@@ -1,0 +1,1 @@
+const t=""+new URL("../assets/majlis-bertandang.0eeebf2a.jpg",import.meta.url).href,a=""+new URL("../assets/location-button.a0740578.png",import.meta.url).href,e=""+new URL("../assets/calendar-button.2dcec314.png",import.meta.url).href;export{e as c,a as l,t as m};
